@@ -8,11 +8,11 @@ The primary objective of this case study is to demonstrate how businesses can le
 #### Dataset Overview
 The dataset used in this analysis includes the following key components:
 
-***Sales Channels***: The dataset provides data from various sales channels, including Shiprocket and INCREFF.
-***SKU and Product Details***: Includes SKU codes, design numbers, stock levels, product categories, sizes, and colors.
-***Market Retail Prices (MRPs)***: Contains MRPs across multiple stores, such as Ajio, Amazon (including FBA), Flipkart, Limeroad, Myntra, and Paytm.
-***Customer and Transaction Data***: Tracks the amount paid by customers, rate per piece, date of sale, transaction status, quantity sold, and currency.
-***Financial Metrics***: Includes gross amount, related expenses, and calculated profits.
+**Sales Channels**: The dataset provides data from various sales channels, including Shiprocket and INCREFF.
+**SKU and Product Details**: Includes SKU codes, design numbers, stock levels, product categories, sizes, and colors.
+**Market Retail Prices (MRPs)**: Contains MRPs across multiple stores, such as Ajio, Amazon (including FBA), Flipkart, Limeroad, Myntra, and Paytm.
+**Customer and Transaction Data**: Tracks the amount paid by customers, rate per piece, date of sale, transaction status, quantity sold, and currency.
+**Financial Metrics**: Includes gross amount, related expenses, and calculated profits.
 
 #### Business Question
 1. Impact of Fulfillment Method on Sales by Region:
@@ -21,7 +21,7 @@ The dataset used in this analysis includes the following key components:
         2.  ship-state, 
         3.  Amount, 
         4.  Qty
-
+        5.  Month
 
 2. Cancellation Rate by Product Category and Fulfillment Method:
       ##### Variables Involved: 
@@ -29,8 +29,7 @@ The dataset used in this analysis includes the following key components:
         2.  Category, 
         3.  Fulfilment, 
         4.  Qty
-
-
+        5.  Month
 
 3. Sales Channel and Promotion Impact on Revenue by Product Category:
       ##### Variables Involved: 
@@ -38,7 +37,7 @@ The dataset used in this analysis includes the following key components:
         2.  promotion-ids, 
         3.  Category, 
         4.  Amount
-
+        5.  Month
 
 
 4. Shipping Service Level's Effect on Customer Satisfaction by Region:
@@ -47,23 +46,38 @@ The dataset used in this analysis includes the following key components:
         2.  Status, 
         3.  ship-state, 
         4.  Qty
+        5.  Month
 
 5. B2B vs. B2C Sales Performance by Category and Region:
-    ##### Variables Involved: 
-      1.  B2B, 
-      2.  Category, 
-      3.  ship-state, 
-      4.  Amount, 
-      5.  Qty
+      ##### Variables Involved: 
+            1.  B2B, 
+            2.  Category, 
+            3.  ship-state, 
+            4.  Amount, 
+            5.  Qty
+            6.  Month
 
 
-6. Order Volume and Revenue by Product Size, Category, and Fulfillment:
-     ##### Variables Involved: 
+7. Order Volume and Revenue by Product Size, Category, and Fulfillment:
+      ##### Variables Involved: 
         1.  Size, 
         2.  Category, 
         3.  Fulfilment, 
         4.  Qty, 
         5.  Amount
+        6.  Month
+
+
+####      Methodology
+**Data Cleaning**: The data cleaning process will be done using R-Studio with R-Language to check for missing value, empty space, quality check, transformation and overall build a transfoemation pipeline
+
+**Storage**: The data will be loaded into PostgreSQL after the transformation is completed and further data structure will take place to structure the data based on eacg business question
+
+**Analysis of Data**: This will be done using POWER BI
+
+
+#### RESULT
+
 
 
 
