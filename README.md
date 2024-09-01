@@ -1,6 +1,4 @@
-# Profitability
-
-### Case Study: Analyzing E-commerce Profitability Using 
+## Analyzing E-commerce Profitability Using
 #### Introduction
 In the rapidly evolving e-commerce landscape, businesses must continuously adapt to ensure profitability across various sales channels. This case study delves into an in-depth dataset that provides valuable insights into e-commerce profitability, examining the performance across multiple platforms like Shiprocket and INCREFF, and detailing financial metrics such as expenses and profits. The data also covers SKU-level details, MRPs across different stores, and transactional parameters that collectively offer a granular view of sales dynamics.
 
