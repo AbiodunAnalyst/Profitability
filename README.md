@@ -1,6 +1,6 @@
 # Profitability
 
-### Case Study: Analyzing E-commerce Profitability Using a Comprehensive Sales Dataset
+### Case Study: Analyzing E-commerce Profitability Using 
 #### Introduction
 In the rapidly evolving e-commerce landscape, businesses must continuously adapt to ensure profitability across various sales channels. This case study delves into an in-depth dataset that provides valuable insights into e-commerce profitability, examining the performance across multiple platforms like Shiprocket and INCREFF, and detailing financial metrics such as expenses and profits. The data also covers SKU-level details, MRPs across different stores, and transactional parameters that collectively offer a granular view of sales dynamics.
 
@@ -18,54 +18,54 @@ The dataset used in this analysis includes the following key components:
 
 #### Business Question
 1. Impact of Fulfillment Method on Sales by Region:
-  ##### Variables Involved: 
-    1.  Fulfilment, 
-    2.  ship-state, 
-    3.  Amount, 
-    4.  Qty
+      ##### Variables Involved: 
+        1.  Fulfilment, 
+        2.  ship-state, 
+        3.  Amount, 
+        4.  Qty
 
 
 2. Cancellation Rate by Product Category and Fulfillment Method:
-  ##### Variables Involved: 
-    1.  Status, 
-    2.  Category, 
-    3.  Fulfilment, 
-    4.  Qty
+      ##### Variables Involved: 
+        1.  Status, 
+        2.  Category, 
+        3.  Fulfilment, 
+        4.  Qty
 
 
 
 3. Sales Channel and Promotion Impact on Revenue by Product Category:
-  ##### Variables Involved: 
-    1.  Sales Channel, 
-    2.  promotion-ids, 
-    3.  Category, 
-    4.  Amount
+      ##### Variables Involved: 
+        1.  Sales Channel, 
+        2.  promotion-ids, 
+        3.  Category, 
+        4.  Amount
 
 
 
 4. Shipping Service Level's Effect on Customer Satisfaction by Region:
-  ##### Variables Involved: 
-    1.  ship-service-level, 
-    2.  Status, 
-    3.  ship-state, 
-    4.  Qty
+      ##### Variables Involved: 
+        1.  ship-service-level, 
+        2.  Status, 
+        3.  ship-state, 
+        4.  Qty
 
 5. B2B vs. B2C Sales Performance by Category and Region:
-  ##### Variables Involved: 
-    1.  B2B, 
-    2.  Category, 
-    3.  ship-state, 
-    4.  Amount, 
-    5.  Qty
+    ##### Variables Involved: 
+      1.  B2B, 
+      2.  Category, 
+      3.  ship-state, 
+      4.  Amount, 
+      5.  Qty
 
 
 6. Order Volume and Revenue by Product Size, Category, and Fulfillment:
-  ##### Variables Involved: 
-  1.  Size, 
-  2.  Category, 
-  3.  Fulfilment, 
-  4.  Qty, 
-  5.  Amount
+     ##### Variables Involved: 
+        1.  Size, 
+        2.  Category, 
+        3.  Fulfilment, 
+        4.  Qty, 
+        5.  Amount
 
 
 
