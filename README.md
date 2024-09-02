@@ -40,15 +40,7 @@ The dataset used in this analysis includes the following key components:
         5.  Month
 
 
-4. Shipping Service Level's Effect on Customer Satisfaction by Region:
-      ##### Variables Involved: 
-        1.  ship-service-level, 
-        2.  Status, 
-        3.  ship-state, 
-        4.  Qty
-        5.  Month
-
-5. B2B vs. B2C Sales Performance by Category and Region:
+4. B2B vs. B2C Sales Performance by Category and Region:
       ##### Variables Involved: 
             1.  B2B, 
             2.  Category, 
@@ -58,7 +50,7 @@ The dataset used in this analysis includes the following key components:
             6.  Month
 
 
-7. Order Volume and Revenue by Product Size, Category, and Fulfillment:
+5. Order Volume and Revenue by Product Size, Category, and Fulfillment:
       ##### Variables Involved: 
         1.  Size, 
         2.  Category, 
