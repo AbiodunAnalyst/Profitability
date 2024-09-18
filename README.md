@@ -63,7 +63,7 @@ The dataset used in this analysis includes the following key components:
 ####      Methodology
 **Data Cleaning**: The data cleaning process will be done using R-Studio with R-Language to check for missing value, empty space, quality check, transformation and overall build a transfoemation pipeline
 
-**Storage**: The data will be loaded into PostgreSQL after the transformation is completed and further data structure will take place to structure the data based on eacg business question
+**Storage**: The data will be loaded into PostgreSQL after the transformation is completed and further data structure will take place to structure the data based on each business question
 
 **Analysis of Data**: This will be done using POWER BI
 
